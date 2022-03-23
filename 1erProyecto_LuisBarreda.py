@@ -10,7 +10,7 @@ import pygame
 from pygame import mixer
 sys.setrecursionlimit(3000)
 
-
+####deylan estaaqui 
 def openaboutw():
     info = Toplevel() #Creates the about window
     info.title("Programmer information") #Gives the window a name
