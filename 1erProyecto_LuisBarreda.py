@@ -10,9 +10,7 @@ import pygame
 from pygame import mixer
 sys.setrecursionlimit(3000)
 
-"""About Window______________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________
-___________________________________________________________________________________________________________________________________________"""
+####deylan estaaqui 
 def openaboutw():
     info = Toplevel() #Creates the about window
     info.title("Programmer information") #Gives the window a name
@@ -119,9 +117,7 @@ def game1():
             intscores.append(int(scoreonly[i]))
             i += 1
 
-        """
-        These lists are the name only mentioned before, but without the 1., 2.,..., 5. label
-        """
+        
         nameonly2 = []
         for line in nameonly:
             takedot = line.replace(".", "")
